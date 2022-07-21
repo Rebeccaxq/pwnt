@@ -7,4 +7,8 @@ Python3.6
 
 CUDA 10.1+
 
-CuPy.
+CuPy
+
+
+
+

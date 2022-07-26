@@ -38,6 +38,6 @@ def PSNR(restored,seq_clear_cuda):
     img_psnr=0.
     for i  in range (n):
         img_psnr=PSNR_one(restored[:,i,:,:,:],seq_clear_cuda[:,i,:,:,:])+img_psnr
-    img_psnr=img_psnr/(i)
+    img_psnr=img_psnr/(n)
     return img_psnr
 
